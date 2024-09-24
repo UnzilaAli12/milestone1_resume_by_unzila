@@ -1,0 +1,73 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 100px;
+    background-color: rgb(226, 239, 239) 
+}
+#resumeForm{
+    max-width: 1000px;
+    height: 1090px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: rgb(198, 221, 221);;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+
+}
+
+h1{
+    text-align: center;
+    font-size:xx-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 61, 61);
+
+}
+
+h2{
+    color: rgb(0, 61, 61);
+    
+}
+h4{
+    text-align: center;
+    color: rgb(0, 44, 44);;
+}
+
+section{
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 10px;
+    display: block;
+    width: 22%;
+    background-color: rgb(116, 185, 185);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color:#0056b3;
+}
+#skills{
+    display: block;
+    
+}
+
+#Profile-Picture{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+@media( max-width: 1000px){
+    .resumeForm{
+        width: 70%;
+    }
+}
